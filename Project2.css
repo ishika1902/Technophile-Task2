@@ -1,0 +1,88 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("Brainstorming session _Monochromatic.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+    font-family: 'Yaldevi', sans-serif;
+    
+}
+.main{
+    border: 2px solid white;
+    border-radius: 12px;
+    width: 750px;
+    margin:60px auto;
+    background-color: rgb(5 177 162 / 50%);
+
+}
+.head{
+/*     border: 2px solid yellow; */
+    margin: 12px;
+    text-align: center;
+    color: black;
+    text-decoration:underline;
+    font-weight: bolder;
+}
+.form{
+/*     border:2px solid green; */
+    margin: 12px;
+}
+
+.radio1{
+    width: 100px;
+    display: inline-block;
+    margin: 5px;
+}
+.radio1 label{
+    display: grid;
+    text-align: center;
+    /* border: 2px solid black; */
+    color: white;
+    font-size: 17px;
+}
+
+.radio1 input{
+    width: 91px;
+    display: block;
+    margin: 0px auto;
+}
+
+label{
+    /* border: 2px solid red; */
+    color: black;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q11, .q12, .q13, .q14, .q15, .q16, .q17, .q18, .q19, .q20{
+/*     border: 2px solid palevioletred; */
+    margin: 12px;
+}
+
+textarea{
+    width: 580px;
+    height: 168px;
+    border-radius: 12px;
+}
+.btn{
+    font-family: 'Yaldevi', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellowgreen;
+    width: 175px;
+    height: 32px;
+    text-align: center;
+    margin: 0px 275px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.btn:hover{
+    background-color: #6db301;
+    cursor: pointer;
+}
+
